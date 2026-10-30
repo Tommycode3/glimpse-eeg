@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and cite the THINGS-EEG2 dataset and THINGS image database."
+title: "eeg-to-image: zero-shot decoding of seen images from EEG with contrastive alignment to CLIP"
+authors:
+  - family-names: Maggiolo
+    given-names: Tommaso
+    email: maggiolotommaso@gmail.com
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+references:
+  - type: article
+    title: "A large and rich EEG dataset for modeling human visual object recognition"
+    authors:
+      - family-names: Gifford
+        given-names: Alessandro T.
+      - family-names: Dwivedi
+        given-names: Kshitij
+      - family-names: Roig
+        given-names: Gemma
+      - family-names: Cichy
+        given-names: Radoslaw M.
+    journal: NeuroImage
+    volume: 264
+    start: 119754
+    year: 2022
+    doi: 10.1016/j.neuroimage.2022.119754
+  - type: conference-paper
+    title: "Decoding Natural Images from EEG for Object Recognition"
+    authors:
+      - family-names: Song
+        given-names: Yonghao
+      - family-names: Liu
+        given-names: Bingchuan
+      - family-names: Li
+        given-names: Xiang
+      - family-names: Shi
+        given-names: Nanlin
+      - family-names: Wang
+        given-names: Yijun
+      - family-names: Gao
+        given-names: Xiaorong
+    conference:
+      name: "International Conference on Learning Representations (ICLR)"
+    year: 2024
+    url: "https://arxiv.org/abs/2308.13234"

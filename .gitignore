@@ -1,0 +1,8 @@
+.venv/
+data/
+figures/local/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+results/log_*.txt
+.DS_Store

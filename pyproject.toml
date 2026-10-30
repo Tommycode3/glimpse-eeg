@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eeg2img"
+version = "0.1.0"
+description = "Zero-shot decoding of seen images from EEG (THINGS-EEG2) by contrastive alignment to CLIP"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Tommaso Maggiolo", email = "maggiolotommaso@gmail.com"}]
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch", "matplotlib"]
+
+[project.optional-dependencies]
+clip = ["open_clip_torch", "pillow"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
