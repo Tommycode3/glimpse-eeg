@@ -1,4 +1,4 @@
-# eeg-to-image: which image was this person looking at?
+# glimpse-eeg: which image was this person looking at?
 
 ![EEG retrieval, subject 1: for each image seen, the five test concepts ranked closest to the EEG prediction. Green marks the correct one.](figures/retrieval_names.png)
 
